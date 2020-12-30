@@ -9,3 +9,26 @@ The gist of this demo is that node-adodb [spawns a CScript process](https://gith
 To migigate this, I've added a check to see if we're running within a pkg executable and have changed the `ADODB.PATH` to a location directly next to the executable. I then copy `adodb.js` from its original `node_modules` location to the set path, allowing CScript to access it.
 
 This copying process could in theory be performed at build-time, though you would need to distribute your built `app.exe` and copied `adodb.js` together. I personally prefer keeping `app.exe` completely portable.
+
+## Instructions
+
+Ensure that a Microsoft Access database named `db.mdb` is in the root project dir. Feel free to change the `DB_PATH` as necessary.
+
+Install dependencies
+
+```
+yarn
+```
+
+Run in standard Node environment
+
+```
+node app.js
+```
+
+Build and run standalone executable
+
+```
+yarn build
+app.exe
+```
