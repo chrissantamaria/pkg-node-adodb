@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "pkg app.js --target node14-win"
+  },
+  "dependencies": {
+    "node-adodb": "^5.0.3"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.9"
+  }
+}
