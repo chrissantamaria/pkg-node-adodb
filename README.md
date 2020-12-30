@@ -1,6 +1,6 @@
 # pkg node-adodb demo
 
-Example repo for vercel/pkg#736 demonstrating how to use [node-adodb](https://github.com/nuintun/node-adodb/blob/master/README-EN.md) within a [pkg](https://github.com/vercel/pkg) executable. This was built for Windows-only usage since (as far as I'm aware) there are no suitable Microsoft Access drivers for node-adodb on non-Windows platforms.
+Example repo for [vercel/pkg#736](https://github.com/vercel/pkg/issues/736) demonstrating how to use [node-adodb](https://github.com/nuintun/node-adodb/blob/master/README-EN.md) within a [pkg](https://github.com/vercel/pkg) executable. This was built for Windows-only usage since (as far as I'm aware) there are no suitable Microsoft Access drivers for node-adodb on non-Windows platforms.
 
 ## Overview
 
